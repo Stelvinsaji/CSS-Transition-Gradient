@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+.tran {
+  position: relative;
+  height: 300px;
+  border: 10px double red;
+  background: linear-gradient(45deg, #ffbc00, #ff0058);
+  transition: 0.5s;
+  border-radius: 50%;
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.tran:hover {
+  border: 15px solid royalblue;
+  background: linear-gradient(115deg, #03a9f4, #91ff00);
+}
